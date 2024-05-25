@@ -26,7 +26,7 @@ My blog: [https://codenut-dev.vercel.app/blog](https://codenut-dev.vercel.app/bl
 #### If you like this project, let me know by leaving a star on this repository.
 
 Best regards, Kain Nhantumbo.\
-✌️🇲🇿 Crafted with ❤ Lua
+✌️🇲🇿 Crafted with Lua and Lazy Vim.
 
 ## 📜 License
 
