@@ -89,8 +89,9 @@ return {
       terminal_colors = true,
     },
     config = function()
-      vim.g.sonokai_enable_italic = false
-      vim.cmd.colorscheme("sonokai")
+      vim.g.sonokai_transparent_background = "1"
+      vim.g.sonokai_enable_italic = "0"
+      vim.cmd.sonokai_style = "andromeda"
     end,
   },
   {
@@ -102,8 +103,7 @@ return {
       terminal_colors = true,
     },
     config = function()
-      vim.g.sonokai_enable_italic = false
-      vim.cmd.colorscheme("sonokai")
+      vim.g.gruvbox_material_enable_italic = false
     end,
   },
   {
