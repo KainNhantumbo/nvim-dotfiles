@@ -19,10 +19,10 @@ return {
       },
       no_italic = true, -- Force no italic
       no_bold = true, -- Force no bold
-      no_underline = false, -- Force no underline
+      no_underline = true, -- Force no underline
       styles = { -- Handles the styles of general hi groups (see `:h highlight-args`):
-        comments = { "italic" }, -- Change the style of comments
-        conditionals = { "italic" },
+        comments = {}, -- Change the style of comments
+        conditionals = {},
         loops = {},
         functions = {},
         keywords = {},
@@ -58,8 +58,8 @@ return {
     opts = {
       terminal_colors = true, -- add neovim terminal colors
       undercurl = true,
-      underline = true,
-      bold = true,
+      underline = false,
+      bold = false,
       italic = {
         strings = false,
         emphasis = false,
@@ -103,7 +103,7 @@ return {
       terminal_colors = true,
     },
     config = function()
-      vim.g.gruvbox_material_enable_italic = false
+      vim.g.gruvbox_material_transparent_background = "1"
     end,
   },
   {
@@ -115,8 +115,9 @@ return {
       terminal_colors = true,
     },
     config = function()
-      vim.g.sonokai_enable_italic = false
-      vim.cmd.colorscheme("sonokai")
+      vim.g.everforest_enable_italic = "0"
+      vim.g.everforest_transparent_background = "1"
+      vim.cmd.colorscheme("everforest")
     end,
   },
   {
@@ -139,7 +140,7 @@ return {
   {
     "LazyVim/LazyVim",
     opts = {
-      colorscheme = "sonokai",
+      colorscheme = "gruvbox",
     },
   },
 }

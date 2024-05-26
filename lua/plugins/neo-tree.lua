@@ -18,7 +18,10 @@ return {
           ".next",
           "thumbs.db",
         },
-        never_show = {},
+        never_show = {
+          ".git",
+          ".next",
+        },
       },
     },
   },
