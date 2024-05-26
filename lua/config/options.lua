@@ -30,4 +30,5 @@ vim.opt.tabstop = 2
 vim.opt.wrap = false
 vim.opt.backspace = { "start", "eol", "indent" }
 vim.opt.splitbelow = true
+vim.opt.wildignore:append({ "*/node_modules/*" })
 vim.opt.splitright = true
