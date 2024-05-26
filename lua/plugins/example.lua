@@ -54,6 +54,7 @@ return {
     },
     -- change some options
     opts = {
+
       defaults = {
         layout_strategy = "horizontal",
         layout_config = { prompt_position = "top" },
